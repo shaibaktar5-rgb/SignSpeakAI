@@ -1,0 +1,38 @@
+# SignSense AI - Git Ignore File
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# YOLO/PyTorch
+*.pt
+*.pth
+runs/
+yolov5/
+.torch/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output
+detection_result.jpg
+*.jpg
+*.png
+
+# Logs
+*.log

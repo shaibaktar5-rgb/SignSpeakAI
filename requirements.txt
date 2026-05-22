@@ -1,0 +1,20 @@
+# SignSense AI - Requirements
+# Core dependencies for sign language detection using YOLOv5
+
+# Computer Vision
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+
+# Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+
+# YOLO Detection
+ultralytics>=8.0.0
+
+# Utilities
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Optional: For better performance on GPU
+# pytorch-cuda==11.8  # Uncomment if using GPU
